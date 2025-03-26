@@ -1,0 +1,438 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+button a {
+    color: white; 
+    text-decoration: none;
+}
+
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+/* Navigation Menu Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 40px;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+
+/* Hover Effect - Turns text to gold */
+nav ul li a:hover {
+    color: #ffcc00 ;
+    background: rgba(255, 215, 0, 0.2); 
+    border-radius: 5px;
+}
+
+
+/* Header */
+header {
+    background: #1c1c1c;
+    color: #ffcc00 ;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: url('hero-bg.jpg') no-repeat center/cover;
+    color: hsl(200, 71%, 4%);
+    padding: 50px 20px;
+    
+}
+
+.hero-btn {
+    background: #072e87;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Services Section */
+.services-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f3f3;
+}
+
+/* Container for Service Cards */
+.services-container {
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+    gap: 10px;  
+}
+
+/* Individual Service Cards */
+.service-card {
+    background: hwb(0 83% 16%);
+    width: 25%; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive for Small Screens */
+@media (max-width: 900px) {
+    .service-card {
+        width: 50%; 
+    }
+}
+
+@media (max-width: 600px) {
+    .service-card {
+        width: 90%; 
+    }
+}
+
+/* Images in Service Cards */
+.service-card img {
+    width: 50%;
+    height: 40%;
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+/* Rating */
+.rating {
+    font-size: 18px;
+    color: #ff9800;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+Button Style
+.service-btn {
+        background:hwb(211 2% 68%);
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+/* Rating */
+.rating {
+    font-size: 18px;
+    color: #ff9800;
+    font-weight: bold;
+}
+
+/* Ads Section */
+.ads-section {
+    text-align: center;
+    background: #1c1c1c;
+    padding: 30px;
+    margin-top: 30px;
+    color: #ffcc00 ;
+    
+}
+
+.ad-btn {
+    background:  hsl(222, 96%, 44%);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+/* Testimonials */
+.testimonials {
+    text-align: center;
+    padding: 40px;
+    background: hsl(240, 25%, 97%);
+}
+
+.testimonial-card {
+    background: rgb(224, 223, 229);
+    width: 50%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #1c1c1c;
+    color: #ffcc00;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    background: rgba(255, 215, 0, 0.2);
+    border-radius: 5px;
+}
+.why-we{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 70px;
+    justify-content: space-around;
+}
+.text{
+    height:100px ;
+}
+
+.engen {
+    height: 30px;
+}
+
+
+.contact-section {
+    background: rgb(219, 217, 217);
+    padding: 50px 20px;
+    margin: 40px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial-card img{
+    border-radius: 100%;
+    width:80px;
+    height: 90px;
+
+}
+
+.contact-section h2 {
+    color: #1c1c1c;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #151515;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.btn {
+    background: #007BFF;
+    color: black; /* Changed from red to black */
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+    color: white;
+}
+
+/* Google Map Section */
+#location {
+    padding: 40px;
+    background: #f9f9f9;
+}
+
+.map-container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+footer {
+    background: #282828; 
+    color: #ffcc00 ;
+    padding: 15px;
+    text-align: center;
+}
+.karuna{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.testimonials-top, .testimonials-bottom {
+    width: 100%;
+    max-width: 800px; /* Adjust this value to fit your design */
+    margin-bottom: 20px; /* Add some space between the top and bottom sections */
+}
+
+.testimonial-card {
+    background-color: #f8f8f8;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card h4 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.testimonial-card .rating {
+    font-size: 1.2em;
+    color: gold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+.star{
+    display: flex;
+    justify-content: space-around;
+}
+.index{
+    display: flex;
+    justify-content: space-around;
+}
