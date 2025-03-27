@@ -60,7 +60,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: hsl(0, 13%, 94%);
 }
 /* Navigation Menu Styles */
 nav ul {
@@ -310,5 +310,5 @@ footer {
     color: #ffcc00 ;
     padding: 20px;
     text-align: center;
-    text-align: center;
+    text-align: center;
 }
